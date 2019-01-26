@@ -1,0 +1,24 @@
+{
+  "name": "insiteapps/googleanalytics",
+  "description": "The Google Analytics Lite module consists of just 1 (one) component: The Google Logger injects the google analytics javascript snippet into your source code",
+  "type": "silverstripe-vendormodule",
+  "keywords": [
+    "silverstripe",
+    "chitosystems",
+    "googleanalytics",
+    "Google Analytics"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Itayi Paul Patrick Chitovoro",
+      "email": "patrick@insiteapps.co.za"
+    }
+  ],
+  "require": {
+    "silverstripe/framework": "~4.0"
+  },
+  "extra": {
+    "installer-name": "googleanalytics"
+  }
+}
