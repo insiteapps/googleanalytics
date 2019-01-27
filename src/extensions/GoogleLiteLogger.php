@@ -3,6 +3,7 @@
 namespace InsiteApps\GoogleAnalytics {
     
     use SilverStripe\Control\Controller;
+    use SilverStripe\Core\Extension;
     use SilverStripe\Dev\DevBuildController;
     use SilverStripe\Dev\DevelopmentAdmin;
     use SilverStripe\ORM\DatabaseAdmin;
