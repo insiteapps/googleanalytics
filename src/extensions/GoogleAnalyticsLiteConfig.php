@@ -26,7 +26,7 @@ namespace InsiteApps\GoogleAnalytics {
         public function updateCMSFields( FieldList $fields )
         {
             
-            $fields->addFieldToTab( 'Root', new Tab( 'GoogleAnalyticsLite' ) );
+            //$fields->addFieldToTab( 'Root', new Tab( 'GoogleAnalyticsLite' ) );
             $fields->addFieldsToTab( 'Root.GoogleAnalyticsLite', array(
                 TextField::create( 'GoogleAnalyticsLiteCode', 'Google Analytics Code' )
                          ->setRightTitle( '(UA-XXXXXX-X)' ),
